@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: akunuri001/simple-express
+      - image: akunuri001/simple-reverse-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
